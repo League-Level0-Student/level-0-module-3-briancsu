@@ -24,10 +24,10 @@ public class HighLowGame {
 					System.exit(0);
 				}
 				else if (num > random) {
-					System.out.println("Too high!");
+					JOptionPane.showMessageDialog(null, "Too high!");
 				}
 				else if (num < random) {
-					System.out.println("Too low!");
+					JOptionPane.showMessageDialog(null, "Too low!");
 				}
 			}
 			System.out.println("You LOSE!");
